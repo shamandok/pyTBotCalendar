@@ -18,7 +18,7 @@ pip install python-telegram-bot-calendar
 
 Существует один main class - `DetailedTelegramCalendar`
 
-Подключаем пакет с помощью инструкции from и import
+Подключаем пакет с помощью инструкций from и import
 
 ```python
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
