@@ -81,6 +81,10 @@ def cal(c):
 
    - `step` - `YEAR`, `MONTH`, или `DAY` если выбор не готов. Значение `None` также возможно, если нет изменений в клавиатуре.
 
+
+## Authors
+Artem Bakhanov - @artembakhanov
+
 ## 📝 License
 
 Copyright © 2020 [artembakhanov](https://github.com/artembakhanov). <br />
