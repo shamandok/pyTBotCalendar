@@ -83,7 +83,7 @@ def cal(c):
 
 
 ## Authors
-Artem Bakhanov - @artembakhanov
+shamandok - @shamandok
 
 ## 📝 License
 
