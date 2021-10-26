@@ -1,6 +1,6 @@
 # 🗓️ TBot_calendar
 
-Inline календарь на python для telegram ботов
+Inline календарь для telegram ботов
 
 Данный модуль представляет из себя готовое решение,
 
@@ -18,12 +18,12 @@ pip install python-telegram-bot-calendar
 
 Существует один main class - `DetailedTelegramCalendar`
 
-Подключаем модуль с помощью инструкции import
+Подключаем пакет с помощью инструкции from и import
 
 ```python
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
 ```
-В декораторе сообщений, создаем экземпляр модуля
+В обработчике сообщений, вызовем экземпляр календаря
 
 ```python
 @bot.message_handler(commands=['start'])
@@ -33,7 +33,7 @@ def start(m):
                      f"Select {LSTEP[step]}",
                      reply_markup=calendar)
 ```
-Обработаем запросы к модулю
+Добавим обработчик callback_query запросов
 ```python
 @bot.callback_query_handler(func=DetailedTelegramCalendar.func())
 def cal(c):
