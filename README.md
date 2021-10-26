@@ -1,6 +1,6 @@
-# TBot_calendar
+# 📅 TBot_calendar
 
-Inline calendar for your bot.
+Inline календарь на python для telegram ботов
 
 Getting Started
 This library is tested on Python 3.6 and 3.7.
