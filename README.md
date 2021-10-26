@@ -9,13 +9,16 @@ Inline календарь на python для telegram ботов
 pip install python-telegram-bot-calendar
 ```
 ####  📃Вступление ####
-Для начала работы с модулем календаря, подключим его к боту
 
 Данный модуль представляет из себя готовое решение, в полной мере обеспечивающий функционал требуемый от календаря.
+
 Для использования или изминения функционала, необходимо понимать его структуру.
+
 В роли главного или исполняемого класса выступает DetailedTelegramCalendar
+
 Использование
-Шаблон для библиотеки pyTelegramBotAPI
+
+Для начала работы с модулем календаря, подключим его к боту на примере библиотеки pyTelegramBotAPI:
 
 
 ```python
@@ -45,19 +48,16 @@ def cal(c):
 
 ```
 
+В декораторе bot.message_handler создается календарь
 
+Можно передать несколько аргументов:
+calendar_id - маленькое целое число или строка, используемая для идентификации календаря. Используется, когда вам нужно несколько разных календарей (по умолчанию - 0)
+current_date - объект datetime.date, начальное значение даты (по умолчанию - сегодняшняя дата)
+additional_buttons - одномерный список кнопок, которые будут добавлены в конец календаря
+locale - en, ru или eo, можно добавить еще
+min_date и max_date - оба используются как минимальное и максимальное значения для календаря
+Как видите, предоставленная специальная функция должна быть передана обработчику запроса обратного вызова. Это сработает автоматически. Функция принимает только один аргумент - calendar_id, который по умолчанию равен 0.
 
-
-Usage
-There is one main class - DetailedTelegramCalendar that can be used as follows. This is the example for pyTelegramBotAPI library. Other libraries are also supported.
-In start handler the calendar is created. Several arguments can be passed:
-
-calendar_id - small integer or string, used for calendar identification. It used when you need several different calendars (default - 0)
-current_date - datetime.date object, initial date value (default - today date)
-additional_buttons - 1D list of buttons that will be added to the bottom of the calendar
-locale - either en, ru, or eo, can be added more
-min_date and max_date - both are used as min and max values for the calendar
-As you can see, special function that is provided should be passed to callback query handler. It will automatically work. The function takes only one argument - calendar_id that is 0 by default.
 
 In the body of the handler function you need to call process function on callback data. WARNING! You need to create the calendar object again if it was not saved before.
 
