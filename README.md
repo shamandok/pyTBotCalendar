@@ -25,7 +25,9 @@ pip install python-telegram-bot-calendar
 
 ```python
 from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
+```
 
+```python
 ...
 @bot.message_handler(commands=['start'])
 def start(m):
@@ -33,8 +35,9 @@ def start(m):
     bot.send_message(m.chat.id,
                      f"Select {LSTEP[step]}",
                      reply_markup=calendar)
+```
 
-
+```python
 @bot.callback_query_handler(func=DetailedTelegramCalendar.func())
 def cal(c):
     result, key, step = DetailedTelegramCalendar().process(c.data)
