@@ -82,10 +82,10 @@ def cal(c):
    - `step` - `YEAR`, `MONTH`, или `DAY` если выбор не готов. Значение `None` также возможно, если нет изменений в клавиатуре.
 
 
-## Authors
-shamandok - [@shamandok](https://github.com/shamandok) <br />
+## Автор
+Artem Moskalenko - [@shamandok](https://github.com/shamandok) <br />
 
-## 📝 License
+## 📝 Лицензия
 
 Copyright © 2020 [artembakhanov](https://github.com/artembakhanov). <br />
 This project is [MIT](https://github.com/avneesh0612/next-progress-bar/blob/main/LICENSE) licensed.
