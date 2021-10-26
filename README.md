@@ -1,5 +1,4 @@
 # <p align="center">:calendar: pyTBotCalendar</p>
-*********
 <p align="center"> Календарь для telegram бота</p>
 <p align="center"> с поддержкой мультиязычности и возможностью кастомизации.</p>
 
