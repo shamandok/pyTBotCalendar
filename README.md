@@ -80,3 +80,8 @@ def cal(c):
    - `keyboard` - inline keyboard markup если выбор не готов. В противном случае - `None`
 
    - `step` - `YEAR`, `MONTH`, или `DAY` если выбор не готов. Значение `None` также возможно, если нет изменений в клавиатуре.
+
+## 📝 License
+
+Copyright © 2020 [artembakhanov](https://github.com/artembakhanov). <br />
+This project is [MIT](https://github.com/avneesh0612/next-progress-bar/blob/main/LICENSE) licensed.
