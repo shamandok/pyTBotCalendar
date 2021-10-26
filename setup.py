@@ -4,17 +4,16 @@ with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setup(
-    name='python-telegram-bot-calendar',
-    packages=['telegram_bot_calendar'],
-    version='1.0.5',
+    name='Python-TBot-calendar',
+    packages=['TBot_calendar'],
+    version='0.0.1',
     license='MIT',
-    description='Python inline calendar for telegram bots',
+    description='Календарь на python для telegram ботов',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author='Artem Bakhanov',
-    author_email='artembakhanov@gmail.com',
-    url='https://github.com/artembakhanov/python-telegram-bot-calendar',
-    download_url='https://github.com/artembakhanov/python-telegram-bot-calendar/archive/v_1.0.2.tar.gz',
+    author='Artem Moskalenko',
+    author_email='shamandok22@gmail.com',
+    url='https://github.com/shamandok/Python-TBot-calendar',
     keywords=['calendar', 'telegram', 'bot', 'telegram bot'],
     install_requires=[
         'python-dateutil',
@@ -23,7 +22,7 @@ setup(
         'telethon': ['telethon']
     },
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 1 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
