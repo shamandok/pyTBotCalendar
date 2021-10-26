@@ -1,4 +1,4 @@
-# :calendar: pyTBotCalendar
+# <p align="center">:calendar: pyTBotCalendar</p>
 
 Календарь для telegram бота, с поддержкой мультиязычности и возможностью кастомизации.
 
