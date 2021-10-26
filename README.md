@@ -88,4 +88,4 @@ Artem Moskalenko - [@shamandok](https://github.com/shamandok) <br />
 ## 📝 Лицензия
 
 Copyright © 2020 [artembakhanov](https://github.com/artembakhanov). <br />
-This project is [MIT](https://github.com/avneesh0612/next-progress-bar/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/shamandok/Python-TBot-calendar/blob/main/LICENSE) licensed.
