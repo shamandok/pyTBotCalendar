@@ -16,6 +16,16 @@ pip install python-telegram-bot-calendar
 В роли главного или исполняемого класса выступает DetailedTelegramCalendar
 Использование
 Шаблон для библиотеки pyTelegramBotAPI
+
+
+```python
+s = "Подсветка Python"
+print s
+```
+
+
+
+
 Usage
 There is one main class - DetailedTelegramCalendar that can be used as follows. This is the example for pyTelegramBotAPI library. Other libraries are also supported.
 In start handler the calendar is created. Several arguments can be passed:
