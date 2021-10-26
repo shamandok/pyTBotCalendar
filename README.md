@@ -83,7 +83,7 @@ def cal(c):
 
 
 ## Authors
-shamandok - @shamandok
+shamandok - [@shamandok](https://github.com/shamandok). <br />
 
 ## 📝 License
 
