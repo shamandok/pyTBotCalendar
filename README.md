@@ -6,7 +6,7 @@
 Пакет протестирован с Python 3.6-3.8
    - Установка с помощью git:
 ```
-pip install python-telegram-bot-calendar
+git clone https://github.com/shamandok/pyTBotCalendar.git
 ```
 Для работы с пакетом календаря, рассмотрим подключение его к боту на примере библиотеки `pyTelegramBotAPI`:
 
