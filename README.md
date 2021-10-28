@@ -101,7 +101,17 @@ class MyStyleCalendar(DetailedTelegramCalendar):
     empty_month_button = ""
     empty_year_button = ""
 ```
+Индивидуальный перевод
+```python
+your_translation_months = list('abcdefghijkl')
+your_translation_days_of_week = list('yourtra')
 
+class MyTranslationCalendar(DetailedTelegramCalendar):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.days_of_week['yourtransl'] = your_translation_days_of_week
+        self.months['yourtransl'] = your_translation_months
+```
 ##  ⭐Планы ##
 |      Модуль     | Описание                 | Заметки                       |  Статус |
 | :-------------: |:------------------------:|:-----------------------------:|:-------:|
