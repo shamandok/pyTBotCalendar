@@ -1,3 +1,4 @@
+```python
 def last_day_month(year, month):
     leap_year_flag = 0
     end_dates = {
@@ -42,3 +43,4 @@ def last_day_month(year, month):
 times = []
 for i in range(int(day), int(last_day_month(year, month)) + 1):
     times.append(f'{i}')
+```
