@@ -12,7 +12,7 @@ try:
 except ImportError:
     TELETHON_INSTALLED = False
 
-from telegram_bot_calendar.static import MONTHS, DAYS_OF_WEEK
+from TBot_calendar.static import MONTHS, DAYS_OF_WEEK
 
 calendar.setfirstweekday(calendar.MONDAY)
 
