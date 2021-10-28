@@ -1,6 +1,6 @@
 from calendar import monthrange
 
-from telegram_bot_calendar.base import *
+from TBot_calendar.base import *
 
 STEPS = {YEAR: MONTH, MONTH: DAY}
 
