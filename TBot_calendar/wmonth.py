@@ -1,5 +1,5 @@
-from telegram_bot_calendar.base import DAY
-from telegram_bot_calendar.detailed import DetailedTelegramCalendar
+from TBot_calendar.base import DAY
+from TBot_calendar.detailed import DetailedTelegramCalendar
 
 
 class WMonthTelegramCalendar(DetailedTelegramCalendar):
